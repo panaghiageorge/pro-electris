@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './bootstrap.min.css'
-import './index.css'
+import './css/index.css'
+import './css/argon-design-system-react.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 
