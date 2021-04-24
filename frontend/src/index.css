@@ -1,0 +1,11 @@
+main {
+  min-height: 80vh;
+}
+
+header i {
+  margin-right: 5px;
+}
+
+a {
+  cursor: pointer;
+}
