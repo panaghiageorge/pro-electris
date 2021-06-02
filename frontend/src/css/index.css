@@ -48,3 +48,10 @@ a {
   margin-left: -15px;
   margin-right: -15px;
 }
+.rwt__tablist .rwt__tab {
+  display: flex;
+  align-items: flex-start;
+}
+.iconDiv {
+  min-width: 40px;
+}

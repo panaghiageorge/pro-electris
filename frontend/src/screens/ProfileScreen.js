@@ -21,9 +21,24 @@ const ProfileScreen = () => {
     <Tabs defaultTab='vertical-tab-one' vertical className='vertical-tabs'>
       <Col md={3}>
         <TabList>
-          <Tab tabFor='vertical-tab-one'>Profile</Tab>
-          <Tab tabFor='vertical-tab-two'>Orders</Tab>
-          <Tab onClick={logoutHandler}>Logout</Tab>
+          <Tab tabFor='vertical-tab-one'>
+            <div className='iconDiv'>
+              <i class='fas fa-user'></i>
+            </div>
+            Profile
+          </Tab>
+          <Tab tabFor='vertical-tab-two'>
+            <div className='iconDiv'>
+              <i class='fas fa-shopping-cart'></i>
+            </div>
+            Orders
+          </Tab>
+          <Tab onClick={logoutHandler}>
+            <div className='iconDiv'>
+              <i class='fas fa-sign-out-alt'></i>{' '}
+            </div>
+            Logout
+          </Tab>
         </TabList>
       </Col>
       <Col md={9} className='profileRight'>
