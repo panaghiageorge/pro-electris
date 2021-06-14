@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import React from 'react'
+import { useDispatch } from 'react-redux'
 import { Col } from 'react-bootstrap'
 import { Tab, TabPanel, Tabs, TabList } from 'react-web-tabs'
 import 'react-web-tabs/dist/react-web-tabs.css'
@@ -9,9 +9,6 @@ import { logout } from '../actions/userActions'
 
 const ProfileScreen = () => {
   const dispatch = useDispatch()
-
-  const userLogin = useSelector((state) => state.userLogin)
-  const { userInfo } = userLogin
 
   const logoutHandler = () => {
     dispatch(logout())
