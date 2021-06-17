@@ -82,6 +82,7 @@ a {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
 .carousel a {
   margin: 0 auto;
